@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SURVEY-FORM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+    <center>
+        <h1>SIMPLIFII TRAINING</h1>
+        <h3>SURVEY-FORM</h3>
+        <h4 class="h4">Fill the form carefully</h4>
+        <p class="h5">All the fields marked * are compulsary</p>
+    </center>
+
+    <div class="container">
+        <form id="survey-form" onsubmit="return submitForm()" method="post" action="https://enw7u145b8im9.x.pipedream.net/">
+    <fieldset>
+    <legend><label class="details" for="first_name">&#128100 NAME</label></legend><br><br>
+            <input type="text" id="first_name" name="first_name" class="first_name" placeholder="Type first name" required><br><br>
+            <input type="text" id="last_name" name="last_name" class="last_name" placeholder="Type last name" required><br><br>
+    </fieldset>
+    <br>
+    <fieldset>
+            <legend><label for="class" class="address">&#127969 ADDRESS & CONTACT DETAILS</label></legend><br><br>
+            <div>
+                <label for="street_address" class="detail"><span style="color:rgb(245, 48, 48)">*</span>STREET :</label><br><br>
+                    <input type="text" id="street" name="street_address" class="form" required placeholder="Type street address"></label><br><br>
+                <label class="detail" for="city"><span style="color:rgb(245, 48, 48)">*</span>CITY :</label><br><br>
+                    <input type="text" name="city" id="city" class="form" placeholder="Type city name" required></label><br><br>
+                <label class="detail" for="state"><span style="color:rgb(245, 48, 48)">*</span>STATE :</label><br><br>
+                    <input type="text" name="state" id="state" class="form" placeholder="Type state name" required></label><br><br>
+
+                <label class="detail" for="pincode"><span style="color:rgb(245, 48, 48)">*</span>PIN-CODE :</label><br><br>
+                    <input type="text" name="pincode" id="pin-code" class="form" placeholder="Type pin code" required></label><br><br>
+                <label class="detail" for="contact_number"><span style="color:rgb(245, 48, 48)">*</span>CONTACT-NUMBER :</label><br><br>
+                    <input type="number" name="contact_number" id="contact-number" class="form" placeholder="Type contact number" required></label>
+            </div><br>
+        </fieldset>
+   
+        <fieldset>
+            <legend><p class="review-head">&#128149 Please Share Your Experience</p></legend>
+            <label class="form-label" for="quality_of_products_received_rating">Quality of products received:</label><br>
+            <label><input type="radio" class="radio" name="quality_of_products_received_rating" value="Excellent" required>&#128525 Excellent</label>
+            <label><input type="radio" name="quality_of_products_received_rating" class="radio" value="Good" required>&#128522 Good</label>
+            <label><input type="radio" name="quality_of_products_received_rating" class="radio" value="Bad" required>&#128533 Bad</label><br><br>
+            <label class="form-label" for="value_for_money_rating">Value for money:
+                <div class="form-radio-group">
+                    <label><input type="radio" class="radio" name="value_for_money_rating" value="Excellent"
+                            required>&#128525 Excellent</label>
+                    <label><input type="radio" class="radio" name="value_for_money_rating" value="Good"
+                            required>&#128522 Good </label>
+                    <label><input type="radio" class="radio" name="value_for_money_rating" value="Bad" required>&#128533 Bad </label><br><br>
+                    <label class="form-label-2" for="delivery_rating">Delivery:</label><br>
+                    <label><input type="radio" class="radio" name="delivery_rating" value="Excellent" required>&#128525 Excellent</label>
+                    <label><input type="radio" name="delivery_rating" class="radio" value="Good" required>&#128522 Good</label>
+                    <label><input type="radio" name="delivery_rating" class="radio" value="Bad" required>&#128533 Bad</label><br><br>
+                    </fieldset><div>
+                        <center><input type="submit" value="submit" class="button"></center>
+                    </div>
+                </div>
+            </label>
+        </form>
+    </div>
+</center>
+</body>
+
+</html>
